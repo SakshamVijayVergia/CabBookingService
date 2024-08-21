@@ -1,11 +1,13 @@
 package com.example.CabBookingService.cabbooking.Services;
 
 import com.example.CabBookingService.cabbooking.Models.User;
+import lombok.Data;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Data
 @Service
 public class UserService {
     private final List<User> users = new ArrayList<>();
